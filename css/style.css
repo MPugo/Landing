@@ -77,7 +77,7 @@ body * {
 }
 /*------------MAIN-----------------------*/
 .hero {
-	background-image: url(img/image.jpg);
+	background-image: url(..//img/image.jpg);
 	background-size: cover;
 	height: 707px;
 	padding-top: 194px;
@@ -164,7 +164,7 @@ body * {
 	display: flex;
 	flex-direction: row-reverse;
 	margin-top: 0px;
-	padding: 82px 0px 0px 0px;
+	padding: 82px 100px 0px 0px;
 }
 .main-navigation__item {
 	margin-right: 65px;
@@ -187,4 +187,19 @@ body * {
 	line-height: 19px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.3);
+}
+.main-container {
+	max-width: 1200px;
+}
+.name {
+	font-family: 'Yeseva One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 37px;
+	letter-spacing: -0.07em;
+	text-transform: uppercase;
+	color: #E3B873;
+	margin: 49px;
+	
 }
