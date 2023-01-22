@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Nunito Sans', sans-serif;
+    src: url(../res/fonts/NunitoSans-Italic.ttf);
+}
+@font-face {
+    font-family: 'Nunito Sans', sans-serif;
+    src: url(../res/fonts/NunitoSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Yeseva One', cursive;
+    src: url(../res/fonts/YesevaOne-Regular.ttf);
+}
