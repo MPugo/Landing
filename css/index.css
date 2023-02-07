@@ -103,3 +103,28 @@ body * {
 .title-rostov {
     color: #E3B873;
 }
+
+.container-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+} 
+
+.submit-button {
+    background: transparent;
+    border-radius: 2px;
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 13px 33px;
+    border-color: white; 
+    margin-left: 20px;
+}
