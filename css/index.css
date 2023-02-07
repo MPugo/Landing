@@ -82,12 +82,15 @@ body * {
     text-decoration: none;
 }
 
+
 .first-img {
     background-image: url(../img/image.jpg);
     background-size: cover;
     height: 707px;
     padding-top: 194px;
-}
+    position: relative;
+    }
+
 
 .title {
     margin: 0;
