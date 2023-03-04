@@ -1,7 +1,5 @@
 @import url(normalize.css);
 
-@import url(fonts.css);
-
 .body {
     margin: 0 auto;
     font-family: 'Nunito Sans';
@@ -16,9 +14,14 @@ body * {
     
 }
 
+.main {
+    padding-bottom: 50%;
+}
+
 .container {
     max-width: 1250px;
     margin: 0 auto;
+
 }
 
 .header-content {
@@ -270,6 +273,10 @@ body * {
     background-color: #FFFFFF;
 }
 
+.container__video {
+    margin-bottom: 62px;
+}
+
 .video {
     margin-top: -350px;
 }
@@ -287,12 +294,15 @@ body * {
 
 .video__camera {
     text-align: center;
+    margin-bottom: 31px;
 }
 
 .video__img {
     text-align: center;
     position: relative;
     z-index: 1;
+    max-width: 60%;
+    margin: 0 auto;
 
 } 
 
@@ -305,4 +315,74 @@ body * {
     left: 0;
     background-color: rgba(0, 0, 0, .7);
    
+}
+
+.video__img-img {
+    width: 100%;
+    height: auto;
+}
+
+.divider {
+    height: 1.5px;
+    width: 55px;
+    left: 693px;
+    top: 2134.49755859375px;
+    border-radius: 30px;
+    background: #E3B873;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 32px;
+
+}
+
+.video__description {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636
+}
+
+.video__text {
+    margin-bottom: 90px;
+}
+
+.cta {
+    margin: 0 auto;
+    max-width: 60%;
+    text-align: center;
+}
+
+.form__inline {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 33px;
+}
+
+.form__inline-field {
+    flex: 1 1 auto;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-right: 60px;
+
+}
+
+.form__inline-button {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.checkbox__text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #181818;
+
 }
